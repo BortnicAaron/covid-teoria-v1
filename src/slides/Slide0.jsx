@@ -26,7 +26,7 @@ export default function Slide0({ index }) {
       <div className="vhs-stage" key={tick}>
         <div className="vhs-frame">
           <img
-            src="/Gemini_Generated_Image_538ixd538ixd538i.png"
+            src={`${import.meta.env.BASE_URL}Gemini_Generated_Image_538ixd538ixd538i.png`}
             alt="Sujeto del expediente"
             className="vhs-image"
             draggable={false}
@@ -34,7 +34,7 @@ export default function Slide0({ index }) {
 
           {/* Capa de separación cromática (ghost rojo desplazado) */}
           <img
-            src="/Gemini_Generated_Image_538ixd538ixd538i.png"
+            src={`${import.meta.env.BASE_URL}Gemini_Generated_Image_538ixd538ixd538i.png`}
             alt=""
             aria-hidden
             className="vhs-image vhs-image--ghost"
